@@ -45,6 +45,7 @@ The system consists of:
 ---
 
 ## Project Structure
+```text
 gesture-based-touchless-iot-control/
 ├── src/
 │ ├── esp32_cam_gesture.ino
