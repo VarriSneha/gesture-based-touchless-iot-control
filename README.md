@@ -27,8 +27,6 @@ The system consists of:
 > System architecture diagram will be available in the `assets/` folder.
 ---
 
-## Project Structure
-
 ## How It Works
 1. ESP32-CAM captures live video frames.
 2. Frames are processed to detect hand gestures.
@@ -37,21 +35,18 @@ The system consists of:
 5. Devices respond instantly without physical contact.
 ---
 ## Project Structure
-**```text**
+
+```text
 gesture-based-touchless-iot-control/
-│
 ├── src/
 │   ├── esp32_cam_gesture.ino
 │   ├── gesture_inference.py
 │   └── mqtt_control.py
-│
 ├── assets/
 │   └── architecture.png
-│
 ├── README.md
 └── requirements.txt
 
-**```**
 
 ## Technologies Used
 - ESP32-CAM  
@@ -90,9 +85,10 @@ gesture-based-touchless-iot-control/
 5. Monitor the serial output to obtain the device IP address  
 
 ### Python Setup (Optional – for advanced processing)
-```bash
+**```bash**
 pip install -r requirements.txt
 python gesture_inference.py
+**```**
 
 ## Applications
 - Smart home automation  
