@@ -37,7 +37,7 @@ The system consists of:
 5. Devices respond instantly without physical contact.
 ---
 ## Project Structure
-```text
+**```text**
 gesture-based-touchless-iot-control/
 │
 ├── src/
@@ -51,7 +51,7 @@ gesture-based-touchless-iot-control/
 ├── README.md
 └── requirements.txt
 
----
+**```**
 
 ## Technologies Used
 - ESP32-CAM  
