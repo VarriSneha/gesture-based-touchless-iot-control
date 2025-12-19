@@ -113,19 +113,17 @@ relay module, and controlled load.
 
 ### Steps to Execute the Project
 
-1. Clone the repository:
-**```bash**
-git clone https://github.com/VarriSneha/gesture-based-touchless-iot-control.git
-cd gesture-based-touchless-iot-control
+1.cd gesture-based-touchless-iot-control
 
 2.Install Python dependencies:
 pip install -r requirements.txt
 
-3.Run the gesture recognition script
+3.Run the gesture recognition script:
 python src/gesture_inference.py
 
-4.Run the MQTT control script to send commands to IoT devices
-Run the MQTT control script to send commands to IoT devices
+4.Run the MQTT control script to send commands to IoT devices:
+python src/mqtt_control.py
+
 
 5.Upload ESP32-CAM code:
 
@@ -142,7 +140,6 @@ src/esp32_cam_gesture.ino
 7.Recognized gestures are converted into control commands and sent wirelessly to IoT devices using MQTT.
 
 8.The connected appliance (bulb / fan / device) responds instantly without physical contact.
-**```**
 
 ## Applications
 
