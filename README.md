@@ -31,6 +31,12 @@ The system consists of:
 - End device (appliance)  
 
 > The system architecture diagram is available in the `assets/` folder.
+> ## System Architecture
+
+The following diagram shows the overall architecture of the gesture-based touchless IoT control system, including the ESP32-CAM, gesture processing logic, wireless communication, and IoT device control.
+
+![System Architecture](assets/system_architecure.png)
+
 
 ---
 
@@ -43,6 +49,12 @@ The system consists of:
 5. Devices respond instantly without physical contact  
 
 ---
+## System Flow
+
+The diagram below illustrates the end-to-end data flow of the gesture-based touchless IoT control system, from gesture capture to device actuation and feedback.
+
+![System Flow Diagram](assets/system_flow.png)
+
 ## System Flow
 
 1. ESP32-CAM captures live video input.
