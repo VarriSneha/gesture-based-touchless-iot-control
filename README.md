@@ -46,7 +46,6 @@ The system consists of:
 
 ## Project Structure
 
-```text
 
 ---
 
