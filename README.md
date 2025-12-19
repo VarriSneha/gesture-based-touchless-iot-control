@@ -56,3 +56,54 @@ gesture-based-touchless-iot-control/
 │   └── architecture.png
 ├── README.md
 └── requirements.txt
+---
+
+## Technologies Used
+
+- ESP32-CAM  
+- Embedded C / Arduino  
+- Python (for preprocessing / gesture logic, if applicable)  
+- Computer Vision  
+- IoT & Wireless Communication  
+
+---
+
+## Hardware Components
+
+- ESP32-CAM module  
+- Relay module (for appliance control)  
+- Power supply  
+- Connecting wires  
+- Controlled appliance (bulb / fan / device)  
+
+---
+
+## Software Components
+
+- Arduino IDE  
+- ESP32 board package  
+- Embedded C / Arduino  
+- Python (optional, for gesture model training)  
+
+---
+
+## How to Run
+
+### Prerequisites
+- Arduino IDE  
+- ESP32 board support installed  
+- Python 3.x (optional)
+
+### Steps
+1. Open `esp32_cam_gesture.ino` in Arduino IDE  
+2. Select **ESP32-CAM** board and correct COM port  
+3. Upload the code to ESP32-CAM  
+4. (Optional) Run Python scripts for gesture inference  
+5. Perform hand gestures in front of the camera to control devices  
+
+---
+
+## Applications
+
+- Smart home automation  
+- Touch
