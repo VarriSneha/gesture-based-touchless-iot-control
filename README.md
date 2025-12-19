@@ -58,8 +58,6 @@ gesture-based-touchless-iot-control/
 └── requirements.txt
 ---
 
----
-
 ## Technologies Used
 
 - ESP32-CAM  
