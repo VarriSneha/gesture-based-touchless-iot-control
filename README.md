@@ -45,6 +45,15 @@ The system consists of:
 ---
 
 ## Project Structure
+gesture-based-touchless-iot-control/
+├── src/
+│ ├── esp32_cam_gesture.ino
+│ ├── gesture_inference.py
+│ └── mqtt_control.py
+├── assets/
+│ └── architecture.png
+├── README.md
+└── requirements.txt
 
 
 ---
