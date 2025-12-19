@@ -104,18 +104,45 @@ relay module, and controlled load.
 ## How to Run
 
 ### Prerequisites
-- Arduino IDE  
-- ESP32 board support installed  
-- Python 3.x (optional)
+- Python 3.8 or higher
+- Arduino IDE
+- ESP32 board package installed in Arduino IDE
+- USB-to-TTL module (for ESP32-CAM programming)
+- Stable Wi-Fi connection
+- MQTT broker (public or local)
 
-### Steps
-1. Open `esp32_cam_gesture.ino` in Arduino IDE  
-2. Select **ESP32-CAM** board and correct COM port  
-3. Upload the code to ESP32-CAM  
-4. (Optional) Run Python scripts for gesture inference  
-5. Perform hand gestures in front of the camera to control devices  
+### Steps to Execute the Project
 
----
+1. Clone the repository:
+**```bash**
+git clone https://github.com/VarriSneha/gesture-based-touchless-iot-control.git
+cd gesture-based-touchless-iot-control
+
+2.Install Python dependencies:
+pip install -r requirements.txt
+
+3.Run the gesture recognition script
+python src/gesture_inference.py
+
+4.Run the MQTT control script to send commands to IoT devices
+Run the MQTT control script to send commands to IoT devices
+
+5.Upload ESP32-CAM code:
+
+Open Arduino IDE
+
+Select ESP32-CAM board
+
+Select correct COM port
+
+Upload the file:
+src/esp32_cam_gesture.ino
+6.Power the ESP32-CAM and perform hand gestures in front of the camera.
+
+7.Recognized gestures are converted into control commands and sent wirelessly to IoT devices using MQTT.
+
+8.The connected appliance (bulb / fan / device) responds instantly without physical contact.
+**```**
 
 ## Applications
 
