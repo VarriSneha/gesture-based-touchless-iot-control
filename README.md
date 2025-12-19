@@ -58,6 +58,8 @@ gesture-based-touchless-iot-control/
 └── requirements.txt
 ---
 
+---
+
 ## Technologies Used
 
 - ESP32-CAM  
@@ -106,4 +108,15 @@ gesture-based-touchless-iot-control/
 ## Applications
 
 - Smart home automation  
-- Touch
+- Touchless control systems  
+- Assistive technology  
+- Healthcare environments  
+- IoT-based human–computer interaction  
+
+---
+
+## Author
+
+**Varri Sneha**  
+B.Tech – Electronics and Communication Engineering  
+IIIT Manipur
