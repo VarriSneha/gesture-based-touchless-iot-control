@@ -58,7 +58,7 @@ gesture-based-touchless-iot-control/
 
 ---
 
-## Technologies Used
+ Technologies Used
 
 - ESP32-CAM  
 - Embedded C / Arduino  
