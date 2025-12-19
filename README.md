@@ -43,22 +43,16 @@ The system consists of:
 5. Devices respond instantly without physical contact  
 
 ---
+## System Flow
 
-## Project Structure
-```text
-├── src/
-│ ├── esp32_cam_gesture.ino
-│ ├── gesture_inference.py
-│ └── mqtt_control.py
-├── assets/
-│ └── architecture.png
-├── README.md
-└── requirements.txt
+1. ESP32-CAM captures live video input.
+2. Image frames are preprocessed for gesture detection.
+3. Recognized gestures are classified using lightweight vision logic.
+4. Each gesture is mapped to a predefined IoT control action.
+5. Control signals are sent wirelessly to the IoT device.
+6. The connected appliance responds instantly to the gesture.
 
-
----
-
- Technologies Used
+## Technologies Used
 
 - ESP32-CAM  
 - Embedded C / Arduino  
