@@ -46,7 +46,7 @@ The following diagram shows the overall architecture of the gesture-based touchl
 2. Frames are processed to detect hand gestures  
 3. Recognized gestures are mapped to predefined actions  
 4. Control signals are sent to IoT devices wirelessly  
-5. Devices respond instantly without physical contact  
+5. Devices respond instantly without physical contact
 
 ---
 ## System Flow
@@ -63,6 +63,14 @@ The diagram below illustrates the end-to-end data flow of the gesture-based touc
 4. Each gesture is mapped to a predefined IoT control action.
 5. Control signals are sent wirelessly to the IoT device.
 6. The connected appliance responds instantly to the gesture.
+## Circuit Diagram
+
+The following circuit shows the hardware connections used in the gesture-based
+touchless IoT control system, including the ESP32-CAM, USB-to-TTL module,
+relay module, and controlled load.
+
+![Circuit Diagram](assets/circuit_diagram.png)
+
 
 ## Technologies Used
 
